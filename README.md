@@ -9,5 +9,5 @@ It can also be accessed on [Notion](https://rasgaard.notion.site/Computational-D
 
 Disclaimers:
 1. These notes are by no means all emcopassing as I sometimes skip parts or perhaps describe things a bit too vaguely.
-2. As mentioned, these were for my personal use, so don't see them as course curriculum.
-3. I might have written down something completely wrong or missed a point, so read with caution.
+2. As mentioned, these were for my personal use, so don't view them as course material.
+3. I might have written down something completely wrong or missed/misunderstood a point, so read with caution.
