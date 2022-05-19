@@ -1,5 +1,5 @@
 remote_theme: pmarsceill/just-the-docs
 
 mathjax:
-  source: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_CHTML
-  config: 'MathJax.Hub.Config({TeX: {inlineMath: [["$", "$"], ["\\(", "\\)"]],processEscapes: true,equationNumbers: {autoNumber: "AMS"}}})'
+  source: https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  config: 'MathJax = {tex: {inlineMath: [["$", "$"], ["\\(", "\\)"]], processEscapes: true, equationNumbers: {autoNumber: "AMS"}}}'
