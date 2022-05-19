@@ -2,4 +2,6 @@ remote_theme: pmarsceill/just-the-docs
 
 mathjax:
   source: https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-  config: 'MathJax.Hub.Config({ TeX: {equationNumbers: {autoNumber: "AMS"}, inlineMath: [ ['$','$'], ["\\(","\\)"] ], processEscapes: true}})'
+  config: 'MathJax = {tex: {inlineMath: [['$', '$'], ["\\(", "\\)"]],processEscapes: true,equationNumbers: {autoNumber: "AMS"}}}'
+
+
