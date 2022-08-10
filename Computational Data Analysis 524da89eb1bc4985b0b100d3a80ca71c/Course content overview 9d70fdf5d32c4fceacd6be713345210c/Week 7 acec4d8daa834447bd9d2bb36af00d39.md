@@ -29,7 +29,7 @@ $$
 y_i \frac{x_i\beta + \beta_0}{||\beta||} \geq C \quad \forall i
 $$
 
-This maximisation problem is turned into a minimisation problem by letting $C$ be equal to $\frac{1}{||\beta||}$ making us minimise the norm of $\beta$, 
+This maximisation problem is turned into a minimisation problem by letting $C$ be equal to $\frac{1}{\vert\vert\beta\vert\vert}$ making us minimise the norm of $\beta$, 
 
 $$
 \begin{align*}
@@ -245,8 +245,8 @@ We don’t have to explicitly write out what $h(X)$  is so we can use a number o
 Some common kernels are
 
 - **Polynomials $K_{i,k} = (1 + x_ix_j^T)^d$**
-- **Radial** $K_{i,j} = \exp(-\frac1c || x_i - x_j||^2)$
-- **Gaussian $K_{i,j} = \exp(-\frac{1}{2\sigma^2} ||x_i - x_j||^2)$**
+- **Radial** $K_{i,j} = \exp(-\frac1c \vert\vert x_i - x_j\vert\vert^2)$
+- **Gaussian $K_{i,j} = \exp(-\frac{1}{2\sigma^2} \vert\vertx_i - x_j\vert\vert^2)$**
 - **Neural network $K_{i,j} = \tanh(c_1x_ix_j^T + c_2)$**
 
 Line says that the radial basis function is a good one to try out first.

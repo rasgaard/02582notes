@@ -9,7 +9,7 @@ Subjects: Linear classifiers [LDA, QDA, Logistic Regression, Splines, ROC]
 
 LDA is a classification method based on probability of class belonging and creating linear decision boundaries.
 
-The probability of being in the class $k$ given the observation $x$ can be expressed as $P(G=k| X = x)$.
+The probability of being in the class $k$ given the observation $x$ can be expressed as $P(G=k\vert X = x)$.
 
 We need a stochastic model of the data to calculate probabilities and assume that the data comes from different Gaussian distributions. That is, we characterise the classes by their mean and dispersion/covariance structure. 
 
@@ -119,7 +119,7 @@ So the question to answer in logistic regression is: what is a good choice of $\
 
 By optimising the log-likelihood (insert equation, slide 29) we’ll solve logistic regression.
 
-The probability for a class is given by $P(G=g_i|X=x) = \frac{e^{\beta_0 + x\beta}}{1 + e^{\beta_0 + x\beta}}$ where the decision boundary is when $P = 0.5$ which is when $\beta_0 + x\beta = 0$.
+The probability for a class is given by $P(G=g_i \vert X=x) = \frac{e^{\beta_0 + x\beta}}{1 + e^{\beta_0 + x\beta}}$ where the decision boundary is when $P = 0.5$ which is when $\beta_0 + x\beta = 0$.
 
 It is shown that the LDA and logistic regression solutions are quite similar.
 
@@ -140,7 +140,7 @@ $$
 \end{align*}
 $$
 
-with $P_{\lambda, \alpha} = \lambda \left( \frac12 (1-\alpha) ||\beta||^2_2+\alpha||\beta||_1 \right)$ and use cross-validation for $\lambda$ and $\alpha$.
+with $P_{\lambda, \alpha} = \lambda \left( \frac12 (1-\alpha) \vert\vert\beta\vert\vert^2_2+\alpha\vert\vert\beta\vert\vert _1 \right)$ and use cross-validation for $\lambda$ and $\alpha$.
 
 Previously we’ve added the elastic net regularisation, here we subtract as we are maximising the log-likelihood.
 
